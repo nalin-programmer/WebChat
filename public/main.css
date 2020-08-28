@@ -1,0 +1,33 @@
+video {
+    transform: rotateY(180deg);
+}
+
+.select {
+    height: 30px;
+}
+
+.h-90 {
+    height: 100% !important;
+    width: 100% ;
+}
+
+.h-10 {
+    height: 100%;
+    width: 100% ;
+}
+
+#peerVideo:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+html, body {
+    height: 100%;
+}
